@@ -1,0 +1,96 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "Chessgames.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "rated",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "created_at",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "last_move_at",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "turns",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "victory_status",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "winner",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "increment_code",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "white_id",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "white_rating",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "black_id",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "black_rating",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "moves",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "opening_eco",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "opening_name",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "opening_ply",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "chess-data",
+  "title": "Chess Data"
+}
